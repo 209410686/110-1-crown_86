@@ -1,6 +1,6 @@
 const {Pool} = require('pg')
 
-const isProduction = process.env.MoDE_ENV ==="production"
+const isProduction = process.env.MoDE_ENV ==="production" 
 
 const pool = new Pool({
   //user: 'postgres',
